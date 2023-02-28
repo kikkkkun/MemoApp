@@ -17,8 +17,7 @@
         "react"
     ],
     "rules": {
-        "react/function-component-definition": [
-            2, { "namedComponents": "function-declaration" }
-        ]
+        "no-use-before-define": 0,
+        "react/prop-types": ["error", { "ignore": ["navigation"] }]
     }
 }
