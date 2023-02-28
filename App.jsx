@@ -23,7 +23,7 @@ export default function App() {
         headerTintColor: '#ffffff',
         headerBackTitle: 'Back',
         cardStyleInterpolator: CardStyleInterpolators.forHorizontalIOS,
-        gestureEnabled: TurboModuleRegistry,
+        gestureEnabled: true,
         gestureDirection: 'horizontal',
       }}
       >
